@@ -52,6 +52,10 @@ public class User {
         return registrationSince;
     }
 
+    public void setRegistrationSince(LocalDate registrationSince) {
+        this.registrationSince = registrationSince;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
