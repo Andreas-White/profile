@@ -20,6 +20,9 @@ public class ProfileApplication implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
+
+        /*Starts the applications as you have annotated the beans with @Lazy, so it boots faster*/
+        //System.setProperty("spring.main.lazy-initialization", "true");
         SpringApplication.run(ProfileApplication.class, args);
     }
 
